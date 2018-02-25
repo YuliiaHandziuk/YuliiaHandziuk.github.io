@@ -1,0 +1,19 @@
+@font-face {
+font-family: MyriadPro;
+src:url(../fonts/MyriadPro/MyriadPro-Regular.woff);
+}
+
+@font-face {
+font-family: MyriadPro-Bold;
+src:url(../fonts/MyriadPro/myriadpro-bold-webfont.woff);
+}
+
+a {
+	font-family: MyriadPro;
+}
+p {
+	font-family: MyriadPro-Bold;
+}
+li {
+	font-family: helveticanueu;
+}
