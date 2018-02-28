@@ -1,0 +1,53 @@
+// Large devices (desktops, 992px and up)
+@media (min-width: 1025px) and (max-width: 1200px) { 
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	h4 {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+
+
+	nav a {
+		font-size: 0.7em;
+	}
+
+	
+	nav div.heading-menu p {
+		display: block;
+		font-size: 0.9em;
+	}
+
+	nav div.tel a {
+		font-size: 0.7em;
+	}
+
+	nav .menu p {
+		display: none;
+	}
+	
+
+	
+
+
+}
+
+@media (min-width: 1200px) {
+
+	header img.header-carousel-img {
+		height: 850px;
+	}
+
+	nav .heading-menu  {
+		margin: 0;
+	}
+}

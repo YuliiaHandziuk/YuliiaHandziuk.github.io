@@ -1,0 +1,102 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+
+	header div.heading-block a {
+		font-size: 1em;
+	}
+
+
+	nav .menu {
+		width: 100%;
+	}
+
+	nav div.menu p {
+		display: block;
+		font-size: 1em;
+		font-weight: 700;
+	}
+
+	nav div.tel a {
+		font-size: 1.2em;
+		line-height: 1em;
+
+	}
+
+	nav .heading-menu p {
+		display: none;
+	}	
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+
+	.btn {
+		margin-top: 2%;
+		margin-right: 4%;
+	}
+
+	ol.suggest-carousel-indicators {
+		bottom: -30px;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	nav .heading-menu p {
+		display: block;
+	}
+
+	nav div.menu p {
+		display: none;
+	}
+
+
+	nav .menu a {
+		font-size: 0.7em;
+		line-height: 0.9em;
+	}
+
+	nav div.tel a {
+		font-size: 0.77em;
+	}
+
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+
+	.btn {
+		margin-top: 2%;
+		margin-right: 4%;
+	}
+
+	ol.suggest-carousel-indicators {
+		bottom: -30px;
+	}
+}
