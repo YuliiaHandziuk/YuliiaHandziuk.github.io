@@ -56,8 +56,9 @@
 
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	nav .heading-menu p {
+	nav div.heading-menu p {
 		display: block;
+		font-size: 0.9em;
 	}
 
 	nav div.menu p {
@@ -71,7 +72,7 @@
 	}
 
 	nav div.tel a {
-		font-size: 0.77em;
+		font-size: 0.7em;
 	}
 
 
