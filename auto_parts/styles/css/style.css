@@ -15,13 +15,32 @@ h2 {
   line-height: 1.2em;
   text-transform: uppercase;
   margin-top: 2%;
-  margin-bottom: 2%; }
+  margin-bottom: 0; }
 
 h4 {
   font-size: 1.2em;
   line-height: 1.1em;
   margin-top: 2%;
   margin-bottom: 2%; }
+
+hr {
+  width: 10%;
+  height: 2px;
+  background-color: #f08d11;
+  border: none;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s; }
+
+section:hover hr {
+  width: 35%;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s; }
 
 p {
   font-size: 1em;
@@ -38,18 +57,40 @@ content {
   height: 100%;
   background-color: #dfdfde; }
 
-content div.layout {
-  box-shadow: -80px 10px 100px -90px #000000, 80px 10px 100px -90px #000000;
-  z-index: 2;
-  position: inherit; }
+nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 10;
+  background-color: rgba(64, 64, 64, 0.8); }
+
+nav a {
+  color: #8d8d8d;
+  font-size: 1em;
+  line-height: 2em; }
+
+nav a:hover {
+  color: #b0aeae; }
+
+.top-tagline {
+  display: block;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+.top-navigation {
+  display: block;
+  border-top: 1px solid rgba(240, 141, 17, 0.2); }
 
 header {
   display: block;
-  height: 600px;
+  height: auto;
   width: 100%; }
 
 header .carousel-inner {
-  height: 600px; }
+  height: 700px; }
 
 section .carousel-item img {
   width: 100%; }
@@ -60,23 +101,31 @@ section .carousel-indicators {
 section .carousel-control-next, section .carousel-control-prev {
   width: 6%; }
 
-.row {
-  width: 100%; }
-
-nav {
+.banner-block {
   display: block;
-  width: 100%;
-  height: 70px;
-  background-color: #404040;
-  padding-left: 4%; }
+  position: absolute;
+  top: 26%;
+  right: 10%;
+  height: 25%;
+  z-index: 10;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(64, 64, 64, 0.8);
+  border-radius: 40px; }
 
-nav a {
-  color: #8d8d8d;
-  font-size: 0.9em;
-  line-height: 2em; }
+.banner-block h2 {
+  margin-top: 10%;
+  margin-bottom: 10%; }
 
-nav a:hover {
-  color: #b0aeae; }
+.btn {
+  width: 30%;
+  height: 20%;
+  border: none;
+  border-radius: 10px;
+  background-color: #f08d11;
+  color: #696969; }
 
 section, footer {
   display: block;
@@ -85,13 +134,13 @@ section, footer {
   padding: 4%;
   text-align: center; }
 
-#about_us-container {
+#about_us-container, #callback-container {
   background-color: #696969; }
 
-#advantages-container, #features-container {
+#advantages-container, #features-container, footer {
   background-color: #dfdfde; }
 
-#suggest-container, footer {
+#suggest-container {
   background-color: #696969; }
 
 /*# sourceMappingURL=style.css.map */
