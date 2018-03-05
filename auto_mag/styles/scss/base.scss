@@ -3,7 +3,7 @@ $block_color: #696969;
 $light_color: #dfdfde;
 $font_color: #8d8d8d;
 $addit_color: #b0aeae;
-$btn_color: #f08d11;
+$btn_color: #4b86b4;
 
 @import 'fonts';
 
@@ -22,6 +22,10 @@ content {
 	background-color: $light_color;
 	
 	
+}
+
+nav .logo img {
+	width: 50%;
 }
 
 
@@ -72,6 +76,9 @@ header .carousel-inner {
 	height: 700px;
 }
 
+
+
+
 section .carousel-item img {
 	width: 100%;
 }
@@ -84,6 +91,9 @@ section .carousel-control-next, section .carousel-control-prev {
 	width: 6%;
 }
 
+#advantages-container img {
+	margin-bottom: 10%;
+}
 
 .banner-block {
 	display: block;
@@ -102,23 +112,39 @@ section .carousel-control-next, section .carousel-control-prev {
 
 
 .banner-block h2 {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .btn {
 	width: 30%;
-	height: 20%;
+	padding: 2%;
 	border: none;
 	border-radius: 10px;
 	background-color: $btn_color;
-	color: $block_color;
+	color: $light_color;
 
 }
 
+.banner-block .btn {
+	margin-top: 6%;
+}
+
+input.form-control {
+	margin-bottom: 4%;
+	padding: 4%;
+}
+
+textarea {
+	height: 200px;
+	margin-bottom: 2%;
+}
 
 
-
+.contact-container {
+	display: block;
+	border-right: 1px solid rgba($btn_color, 0.2);
+}
 
 section, footer {
 	display: block;
@@ -128,16 +154,115 @@ section, footer {
 	text-align: center;
 }
 
-#about_us-container, #callback-container {
+#about_us-container, #chain-container, footer {
 	background-color: $block_color;
 }
 
 
-#advantages-container, #features-container, footer {
-	background-color: $light_color	;
+#advantages-container, #features-container, #callback-container  {
+	background-color: $light_color;
 }
 
 #suggest-container  {
-	background-color: $block_color; 
+	background-color: $light_color;
+	position: relative;
+	height: 800px;
 }
+
+#suggest-container .auto-center img {
+	display: block;
+	position: absolute;
+	top: 42%;
+	left: 27%;
+
+}
+
+#suggest-container .absolute {
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+
+
+#suggest-container .absolute:hover {
+	border: 1px solid rgba($addit_color,0.5);
+	box-shadow: 0 0 10px $addit_color;
+}
+
+#suggest-container .absolute img {
+	height: 100px;
+	width: auto;
+}
+
+#suggest-container .lot-1 {
+	top: 42%;
+	left: 8%;
+}
+
+#suggest-container .lot-2 {
+	top: 21%;
+	right: 25%;
+}
+
+#suggest-container .lot-3 {
+	top: 41%;
+	right: 12%;
+}
+
+#suggest-container .lot-4 {
+	bottom: 13%;
+	right: 15%;
+}
+
+#suggest-container .lot-5 {
+	bottom: 7%;
+	right: 34%;
+}
+
+#suggest-container .lot-6 {
+	bottom: 11%;
+	left: 17%;
+}
+
+#suggest-container .lot-7 {
+	bottom: 8%;
+	left: 35%;
+}
+
+#suggest-container .lot-8 {
+	top: 19%;
+	left: 40%;
+}
+
+#suggest-container .lot-9 {
+	top: 23%;
+	left: 20%;
+}
+
+
+
+// How we work 
+
+#chain-container img {
+	width: 100%;
+}
+
+#chain-container .picture-arrow-block {
+	margin-top: 60%;
+}
+
+#chain-container .text-block p {
+	text-align: center;
+	color: $light_color;
+	margin-top: 10%;
+	line-height: 1.4em;
+}
+ 
+
 
