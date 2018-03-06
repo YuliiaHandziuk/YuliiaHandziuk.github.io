@@ -169,11 +169,17 @@ section, footer {
 	height: 800px;
 }
 
+#suggest-container .auto-center {
+	display: block;
+}
+
 #suggest-container .auto-center img {
 	display: block;
 	position: absolute;
-	top: 42%;
-	left: 27%;
+	top: 41%;
+	left: 30%;
+	width: 38%;
+	height: 30%;
 
 }
 
