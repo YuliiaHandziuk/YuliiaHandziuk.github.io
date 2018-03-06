@@ -1,0 +1,183 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+	header .contacts {
+		margin-top: 20%;
+	}
+
+	header .logo {
+		display: block;
+
+	}
+
+	// dropdown menu //
+
+
+
+	.dropdown-menu-responsive {
+		display: block;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.dropdown-menu-responsive a {
+		line-height: 1em;
+	}
+
+	div.tel-nav {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	button.dropbtn {
+		display: block;
+	}
+
+	//
+		
+	.size-small, .size-large {
+		font-size: 0.6em;
+	}
+
+
+
+	header div.heading p {
+		font-size: 1em;
+		line-height: 1em;
+		padding: 2%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		line-height: 1em;
+	}
+
+	h3 {
+		font-size: 1em;
+		line-height: 1.3em;
+	}
+	
+	h4 {
+		font-size: 0.9em;
+		line-height: 1em;
+
+	}
+
+	section.service-gallery h3 {
+		font-size: 0.8em;
+		line-height: 1.2em;
+	}
+
+
+	section.service-gallery .text p {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+
+	section.advantages-container p {
+	font-size: 0.85em;
+	line-height: 1em;
+	}
+
+	footer {
+		display: block;
+		padding: 4%;
+		padding-bottom: 20%;
+	}
+
+	footer p {
+		font-size: 0.8em;
+		line-height: 1.4em;
+	}
+
+	footer a {
+		line-height: 1em;
+	}
+
+
+	content.materials {
+		padding: 4%;
+	}
+
+	content.materials .block {
+		margin-top: 4%;
+	}
+
+	content.materials .text {
+		margin-top: 6%;
+
+	}
+
+	content.materials .photos {
+		margin-top: 4%;
+		text-align: center;
+	}
+
+	content.materials .photos img {
+		margin-left: 0;
+	}
+
+	content.services {
+		padding: 7%;
+	}
+
+	content.services h3, content.room-services h3 {
+		font-size: 1.4em;
+	}
+
+	content.services .block {
+		margin-bottom: 30%;
+	}
+
+	content.services .block .text {
+		margin-top: 10%;
+		margin-bottom: 6%;
+	}
+
+
+
+	content.room-services, content.photo-gallery, content.materials, content.services {
+		padding-bottom: 10%;
+	}
+
+	content.room-services .photos {
+		margin-bottom: 4%;
+		text-align: center;
+	}
+
+
+	content.photo-gallery div.content {
+		width: 70%;
+		position: relative;
+		top: 30%;
+	}
+
+
+	content.photo-gallery .prev, content.photo-gallery .next {
+		top: 66%;
+	}
+
+	content.contacts .heading {
+		padding-top: 16%;
+	}
+
+	content.contacts .map {
+		margin-top: 10%;
+	}
+
+
+	content.services, 
+	content.room-services, 
+	content.photo-gallery,
+	content.materials,
+	  {
+		padding-top: 18%;
+	}
+}

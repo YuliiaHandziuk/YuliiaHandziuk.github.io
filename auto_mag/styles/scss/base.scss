@@ -24,10 +24,7 @@ content {
 	
 }
 
-nav .logo img {
-	width: 50%;
-}
-
+// Navigation
 
 nav {
 	display: block;
@@ -44,11 +41,17 @@ nav a {
 	color: $font_color;
 	font-size: 1em;
 	line-height: 2em;
+	text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
 	color: $addit_color;
+	text-decoration: none;
 }
+
+
+
+
 
 .top-tagline {
 	display: block;
@@ -63,44 +66,66 @@ nav a:hover {
 	border-top: 1px solid rgba($btn_color, 0.2);
 }
 
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+}
 
 
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+p.logo {
+	font-size: 2em;
+	color: $btn_color;
+	line-height: 1.8em;
+}
+
+
+
+
+//  Header 
 
 header {
 	display: block;
-	height: auto;
-	width: 100%;
+	position: relative;
+	
 }
 
-header .carousel-inner {
-	height: 700px;
-}
-
-
-
-
-section .carousel-item img {
-	width: 100%;
-}
-
-section .carousel-indicators {
-	bottom: -35px;
-}
-
-section .carousel-control-next, section .carousel-control-prev {
-	width: 6%;
-}
-
-#advantages-container img {
-	margin-bottom: 10%;
+.parallax-window {
+    min-height: 780px;
+    background: transparent;
 }
 
 .banner-block {
 	display: block;
 	position: absolute;
-    top: 26%;
+    top: 40%;
     right: 10%;
-    height: 25%;
+    height: 34%;
     z-index: 10;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -129,6 +154,27 @@ section .carousel-control-next, section .carousel-control-prev {
 .banner-block .btn {
 	margin-top: 6%;
 }
+
+
+// 
+
+section .carousel-item img {
+	width: 100%;
+}
+
+section .carousel-indicators {
+	bottom: -35px;
+}
+
+section .carousel-control-next, section .carousel-control-prev {
+	width: 6%;
+}
+
+#advantages-container img {
+	margin-bottom: 10%;
+}
+
+
 
 input.form-control {
 	margin-bottom: 4%;
@@ -169,6 +215,20 @@ section, footer {
 	height: 800px;
 }
 
+#map-container {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+
+
+
+
+
+// CAR with GOODS
+
+
+
 #suggest-container .auto-center {
 	display: block;
 }
@@ -177,8 +237,8 @@ section, footer {
 	display: block;
 	position: absolute;
 	top: 41%;
-	left: 30%;
-	width: 38%;
+	left: 34%;
+	width: 32%;
 	height: 30%;
 
 }
@@ -192,8 +252,6 @@ section, footer {
 	margin: 0;
 
 }
-
-
 
 
 #suggest-container .absolute:hover {
@@ -270,5 +328,42 @@ section, footer {
 	line-height: 1.4em;
 }
  
+
+// Modal dialog Window "CALLBACK"
+
+#dialog-callback .modal-dialog { 
+	margin-top: 10%;
+	
+}
+
+#dialog-callback .modal-lg {
+	width: 700px;
+}
+
+#dialog-callback .modal-content {
+	background-color: $light_color;
+}
+
+
+#dialog-callback input.form-control {
+	padding: 2%;
+	margin-bottom: 0;
+	border-color: rgba($main_color,0.5);
+}
+
+#dialog-callback h3.form-title {
+	text-align: center;
+	color: $main_color;
+	margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
 
 

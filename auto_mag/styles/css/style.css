@@ -47,7 +47,7 @@ section:hover hr {
   -moz-transition: 1s; }
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.4em; }
 
 .layout {
@@ -61,9 +61,6 @@ content {
   height: 100%;
   background-color: #dfdfde; }
 
-nav .logo img {
-  width: 50%; }
-
 nav {
   display: block;
   position: fixed;
@@ -76,10 +73,12 @@ nav {
 nav a {
   color: #8d8d8d;
   font-size: 1em;
-  line-height: 2em; }
+  line-height: 2em;
+  text-decoration: none; }
 
-nav a:hover {
-  color: #b0aeae; }
+nav a:hover, nav a:focus {
+  color: #b0aeae;
+  text-decoration: none; }
 
 .top-tagline {
   display: block;
@@ -91,32 +90,45 @@ nav a:hover {
   display: block;
   border-top: 1px solid rgba(75, 134, 180, 0.2); }
 
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite alternate both;
+  animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite alternate both; }
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+p.logo {
+  font-size: 2em;
+  color: #4b86b4;
+  line-height: 1.8em; }
+
 header {
   display: block;
-  height: auto;
-  width: 100%; }
+  position: relative; }
 
-header .carousel-inner {
-  height: 700px; }
-
-section .carousel-item img {
-  width: 100%; }
-
-section .carousel-indicators {
-  bottom: -35px; }
-
-section .carousel-control-next, section .carousel-control-prev {
-  width: 6%; }
-
-#advantages-container img {
-  margin-bottom: 10%; }
+.parallax-window {
+  min-height: 780px;
+  background: transparent; }
 
 .banner-block {
   display: block;
   position: absolute;
-  top: 26%;
+  top: 40%;
   right: 10%;
-  height: 25%;
+  height: 34%;
   z-index: 10;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -139,6 +151,18 @@ section .carousel-control-next, section .carousel-control-prev {
 
 .banner-block .btn {
   margin-top: 6%; }
+
+section .carousel-item img {
+  width: 100%; }
+
+section .carousel-indicators {
+  bottom: -35px; }
+
+section .carousel-control-next, section .carousel-control-prev {
+  width: 6%; }
+
+#advantages-container img {
+  margin-bottom: 10%; }
 
 input.form-control {
   margin-bottom: 4%;
@@ -170,6 +194,11 @@ section, footer {
   position: relative;
   height: 800px; }
 
+#map-container {
+  width: 100%;
+  height: auto;
+  padding: 0; }
+
 #suggest-container .auto-center {
   display: block; }
 
@@ -177,8 +206,8 @@ section, footer {
   display: block;
   position: absolute;
   top: 41%;
-  left: 30%;
-  width: 38%;
+  left: 34%;
+  width: 32%;
   height: 30%; }
 
 #suggest-container .absolute {
@@ -244,5 +273,24 @@ section, footer {
   color: #dfdfde;
   margin-top: 10%;
   line-height: 1.4em; }
+
+#dialog-callback .modal-dialog {
+  margin-top: 10%; }
+
+#dialog-callback .modal-lg {
+  width: 700px; }
+
+#dialog-callback .modal-content {
+  background-color: #dfdfde; }
+
+#dialog-callback input.form-control {
+  padding: 2%;
+  margin-bottom: 0;
+  border-color: rgba(64, 64, 64, 0.5); }
+
+#dialog-callback h3.form-title {
+  text-align: center;
+  color: #404040;
+  margin-bottom: 4%; }
 
 /*# sourceMappingURL=style.css.map */
