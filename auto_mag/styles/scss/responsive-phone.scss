@@ -1,0 +1,179 @@
+@media (min-width: 576px) and (max-width: 767px) {
+	nav div.top-tagline a {
+		font-size: 0.84em;
+	}
+
+	nav div.navbar-collapse {
+		text-align: left;
+		font-size: 1.2em;
+	}
+
+	header div.banner-block {
+		height: 28%;
+	} 
+
+	#suggest-container div.auto-center img {
+		width: 46%;
+		left: 26%;
+	}
+
+	#suggest-container div.lot-1 {
+		left: 6%;
+	}
+
+	#suggest-container div.lot-2 {
+		right: 8%;
+	}
+	
+	#suggest-container div.lot-3 {
+		top: 45%;
+		right: 4%;
+	}
+
+	#suggest-container div.lot-4 {
+		bottom: 11%;
+		right: 8%; 
+	}
+
+	#suggest-container div.lot-5 {
+		bottom: 4%;
+		right: 26%;
+	}
+
+	#suggest-container div.lot-6 {
+		left: 12%;
+	}
+
+	#suggest-container div.lot-7 {
+		bottom: 4%;
+	}
+
+	#suggest-container div.lot-8 {
+		left: 47%;
+	}	
+
+	#suggest-container div.lot-9 {
+		top: 18%;
+		left: 16%;
+	}
+
+	#features-container {
+		padding-bottom: 10%;
+	}
+
+	#features-container a.carousel-control-next {
+		right: -32px;
+	}
+
+	#features-container a.carousel-control-prev {
+		left: -28px;
+	}
+
+	#callback-container div.contact-container {
+		border: none;
+	}
+
+}
+
+
+
+
+@media (max-width: 575px) {
+	header div.banner-block {
+		height: 28%;
+	}
+
+	header div.banner-block .btn {
+		width: 60%;
+	}
+
+	header div.banner-block h2 {
+		font-size: 1.4em;
+	}
+
+	nav div.top-tagline a {
+		font-size: 0.5em;
+	}
+
+
+	section#suggest-container {
+		height: 700px;
+	}
+
+	#suggest-container div.auto-center {
+		display: none;
+	}
+
+	#suggest-container div.absolute {
+		position: relative;
+	}	
+
+	#suggest-container div.lot-1,
+	#suggest-container div.lot-2,
+	#suggest-container div.lot-3,
+	#suggest-container div.lot-4,
+	#suggest-container div.lot-5,
+	#suggest-container div.lot-6,
+	#suggest-container div.lot-7,
+	#suggest-container div.lot-8,
+	#suggest-container div.lot-9 {
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+
+
+	#features-container {
+		padding-bottom: 15%;
+	}
+
+	#features-container a.carousel-control-next {
+		right: -28px;
+	}
+
+	#features-container a.carousel-control-prev {
+		left: -18px;
+	}
+
+	#chain-container div.block {
+		margin-bottom: 6%;
+	}
+
+	#chain-container div.picture-arrow-block img {
+		-moz-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+
+	}
+
+	#callback-container {
+		padding-bottom: 10%;
+	}
+
+	#callback-container div.contact-container a {
+		font-size: 0.9em;
+	}
+
+	#callback-container .btn {
+		width: 40%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

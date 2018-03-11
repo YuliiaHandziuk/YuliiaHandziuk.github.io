@@ -38,7 +38,7 @@ h4 {
 hr {
 	width: 10%;
 	height: 2px;
-	margin-bottom: 4%;
+	margin-bottom: 6%;
 	background-color: $btn_color;
 	border: none;
 	transition: 1s;
@@ -62,7 +62,9 @@ p {
 	line-height: 1.4em;
 }
 
-
+.absolute p {
+	color: $btn_color;
+}
 
 
 

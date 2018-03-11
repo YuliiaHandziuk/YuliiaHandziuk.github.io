@@ -6,7 +6,9 @@ $addit_color: #b0aeae;
 $btn_color: #4b86b4;
 
 @import 'fonts';
-
+@import 'responsive-laptop';
+@import 'responsive-tablet';
+@import 'responsive-phone';
 
 
 .layout {
@@ -190,6 +192,7 @@ textarea {
 .contact-container {
 	display: block;
 	border-right: 1px solid rgba($btn_color, 0.2);
+	text-align: left;
 }
 
 section, footer {
@@ -250,7 +253,7 @@ section, footer {
 	height: auto;
 	padding: 0;
 	margin: 0;
-
+	cursor: pointer;
 }
 
 
@@ -327,38 +330,64 @@ section, footer {
 	margin-top: 10%;
 	line-height: 1.4em;
 }
+
+
+// CALLBACK 
+
+#callback-container .contacts-block {
+	display: block;
+	margin-bottom: 4%;
+}
  
+#callback-container .contacts-block a {
+	text-align: left;
+	color: $main_color;
+	line-height: 2em;
+}
+
+#callback-container .contacts-block a:hover, 
+#callback-container .contacts-block a:focus {
+	color: $font_color;
+	text-decoration: none;
+}
 
 // Modal dialog Window "CALLBACK"
+
 
 #dialog-callback .modal-dialog { 
 	margin-top: 10%;
 	
 }
 
-#dialog-callback .modal-lg {
-	width: 700px;
+.modal-content {
+	background-color: rgba($light_color, 0.9);
 }
 
-#dialog-callback .modal-content {
-	background-color: $light_color;
-}
-
-
-#dialog-callback input.form-control {
+.modal-dialog input.form-control {
 	padding: 2%;
 	margin-bottom: 0;
 	border-color: rgba($main_color,0.5);
 }
 
-#dialog-callback h3.form-title {
+.modal-dialog textarea.form-control {
+	margin-bottom: 0;
+	border-color: rgba($main_color,0.5);
+}
+
+h3.form-title {
 	text-align: center;
 	color: $main_color;
 	margin-bottom: 4%;
 }
 
+// Modal dialog Window SUGGESTION GOODS
 
 
+
+#dialog-suggest .modal-dialog { 
+	margin-top: 4%;
+	
+}
 
 
 

@@ -1,0 +1,25 @@
+@media (min-width: 992px) and (max-width: 1139px) {
+	header div.banner-block {
+		height: 32%;
+	}
+
+	header div.banner-block h2 {
+		font-size: 1.4em;
+	}
+
+	.block p {
+		font-size: 1em;
+	}
+
+	#dialog-callback div.modal-dialog {
+		margin-top: 40%;
+	}
+
+	#dialog-suggest div.modal-dialog {
+		margin-top: 30%;
+	}
+
+	footer p {
+		font-size: 1em;
+	}
+}
