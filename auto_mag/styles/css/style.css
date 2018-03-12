@@ -200,6 +200,15 @@ p {
   #suggest-container div.absolute {
     position: relative; }
 
+  #suggest-container h4 {
+    font-size: 0.9em; }
+
+  #suggest-container p {
+    font-size: 1em; }
+
+  #suggest-container img {
+    margin-bottom: 10%; }
+
   #suggest-container div.lot-1,
   #suggest-container div.lot-2,
   #suggest-container div.lot-3,
@@ -218,10 +227,10 @@ p {
     padding-bottom: 15%; }
 
   #features-container a.carousel-control-next {
-    right: -28px; }
+    display: none; }
 
   #features-container a.carousel-control-prev {
-    left: -18px; }
+    display: none; }
 
   #chain-container div.block {
     margin-bottom: 6%; }
