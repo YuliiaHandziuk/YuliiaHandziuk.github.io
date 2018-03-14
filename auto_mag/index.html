@@ -19,11 +19,86 @@
 	</head>
 	<body>
 		<header class="parallax-window" data-parallax="scroll" data-image-src="images/banner.jpg">
-			<div class="col-xl-5 col-lg-6 col-md-8 col-sm-8 col-9 banner-block">
+			<!-- <div class="row">
+				<div class="col-xl-7 col-lg-6 col-md-8 col-sm-8 col-9 heading-block">
 		    	<h4 class="font-color-light">Магазин автозапчастей</h4>
-		    	<h2 class="font-color-light">Быстрый заказ без регистрации </h2>
-		    	<h4>Мы обязательно Вам поможем</h4>
-		    	<button class="btn" data-toggle="modal" data-target="#dialog-callback">Заказать звонок</button>
+		    	<!-- <h2 class="font-color-light">Быстрый заказ без регистрации </h2>
+		    	<h4>Мы обязательно Вам поможем</h4> -->
+		    	
+		    	</div>
+		    </div>	 -->
+		    <div class="row">
+				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-8 col-9 banner-block">	
+		    	<div class="modal-body">
+		        		
+		        		<h3 class="form-title font-color-light" id="dialog-suggest-title">Поиск запчастей для Вашего авто</h3>
+		    	<form>
+		        			<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		        				<input type="text" id="car-list" list="car_list" placeholder="Марка автомобиля" class="form-control">
+								<datalist id="car_list">
+								 	<option value="Acura">Acura</option>
+									<option value="AlfaRomeo">AlfaRomeo</option>
+									<option value="Audi">Audi</option>
+									<option value="Bentley">Bentley</option>
+									<option value="BMW">BMW</option>
+									<option value="Cadillac">Cadillac</option>
+									<option value="Chery">Chery</option>
+									<option value="Chevrolet">Chevrolet</option>
+									<option value="Chrysler">Chrysler</option>
+									<option value="Citroen">Citroen</option>
+									<option value="Daewoo">Daewoo</option>
+									<option value="DAF">DAF</option>
+									<option value="Daihatsu">Daihatsu</option>
+									<option value="Datsun">Datsun</option>
+									<option value="Dodge">Dodge</option>
+									<option value="Fiat">Fiat</option>
+									<option value="Ford">Ford</option>
+									<option value="Geely">Geely</option>
+									<option value="Great Wall">Great Wall</option>
+									<option value="Haval">Haval</option>
+									<option value="Honda">Honda</option>
+									<option value="Hummer">Hummer</option>
+									<option value="Hyundai">Hyundai</option>
+									<option value="Infiniti">Infiniti</option>
+									<option value="Isuzu">Isuzu</option>
+									<option value="Jaguar">Jaguar</option>
+									<option value="Jeep">Jeep</option>
+									<option value="Kia">Kia</option>
+									<option value="Lancia">Lancia</option>
+									<option value="Land Rover">Land Rover</option>
+									<option value="Lexus">Lexus</option>
+									<option value="Mazda">Mazda</option>
+									<option value="Mercedes-Benz">Mercedes-Benz</option>
+									<option value="Mini">Mini</option>
+									<option value="Mitsubishi">Mitsubishi</option>
+									<option value="Nissan">Nissan</option>
+									<option value="Opel">Opel</option>
+									<option value="Peugeot">Peugeot</option>
+									<option value="Porsche">Porsche</option>
+									<option value="Renault">Renault</option>
+									<option value="Rover">Rover</option>
+									<option value="SAAB">SAAB</option>
+									<option value="Seat">Seat</option>
+									<option value="Skoda">Skoda</option>
+									<option value="Smart">Smart</option>
+									<option value="Subaru">Subaru</option>
+									<option value="Suzuki">Suzuki</option>
+									<option value="Toyota">Toyota</option>
+									<option value="Volkswagen">Volkswagen</option>
+									<option value="Volvo">Volvo</option>  
+								</datalist>
+		            		</div>	
+		          			<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		            			
+		            			<input type="text" class="form-control" id="vin-number" placeholder="VIN или номер кузова">
+		          			</div>
+		          			<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		          				<textarea class="form-control" placeholder="Перечислите необходимые запчасти"></textarea>  
+		          			</div>
+		          			<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		            			<input type="tel" class="form-control" id="tel-user" placeholder="Номер телефона">
+		          			</div>
+		        		</form>
 		    </div>
 		</header>
 		<content id="wrapper">
@@ -70,7 +145,7 @@
 					  			<div class="collapse navbar-collapse" id="navbarNav">
 					    			<div class="navbar-nav nav-menu">
 					      				<a class="nav-item nav-link" href="#about_us-container">About us</a>
-					      				<a class="nav-item nav-link" href="#advantages-container">Our advantages</a>
+					      				<!-- <a class="nav-item nav-link" href="#advantages-container">Our advantages</a> -->
 					      				<a class="nav-item nav-link" href="#suggest-container">Suggestion goods</a>
 					      				<a class="nav-item nav-link" href="#features-container">Our features</a>
 					      				<a class="nav-item nav-link" href="#chain-container">How we wok</a>
@@ -83,22 +158,8 @@
 				</div>	
 			</nav>		
 				
-				<section id="about_us-container">
-					<div class="row justify-content-center">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-							<h2 class="font-color-light-grey">About us</h2>
-							<hr>
-						</div>	
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-							<p class="font-color-light">
-								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
-							</p>
-						</div>
-					</div>		
-				</section>
-				<section id="advantages-container">
+				
+				<!-- <section id="advantages-container">
 					<div class="row justify-content-center">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 							<h2 class="font-color-dark">Our advantages</h2>
@@ -131,7 +192,7 @@
 							</div>
 						</div>	
 					</div>
-				</section>
+				</section> -->
 				<section id="suggest-container">
 					<div class="row justify-content-center">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -298,6 +359,21 @@
 							</div>
 						</div>	
 					</div>
+				</section>
+				<section id="about_us-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<h2 class="font-color-light-grey">About us</h2>
+							<hr>
+						</div>	
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<p class="font-color-light">
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+							</p>
+						</div>
+					</div>		
 				</section>
 				<section id="chain-container">
 					<div class="row justify-content-center">
@@ -556,7 +632,7 @@
 			        event.preventDefault();
 			        var id  = $(this).attr('href'),
 			            top = $(id).offset().top;
-			        $('body,html').animate({scrollTop: top -165}, 1500);
+			        $('body,html').animate({scrollTop: top -130}, 1500);
 			    });
 			});
 

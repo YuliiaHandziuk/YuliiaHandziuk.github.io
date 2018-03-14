@@ -42,7 +42,7 @@ nav {
 nav a {
 	color: $font_color;
 	font-size: 1em;
-	line-height: 2em;
+
 	text-decoration: none;
 }
 
@@ -51,17 +51,18 @@ nav a:hover, nav a:focus {
 	text-decoration: none;
 }
 
-
+nav .contacts {
+	margin-top: 5%;
+}
 
 
 
 .top-tagline {
 	display: block;
 	height: auto;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	
 }
+
+
 
 .top-navigation {
 	display: block;
@@ -118,16 +119,16 @@ header {
 }
 
 .parallax-window {
-    min-height: 780px;
+    min-height: 1080px;
     background: transparent;
 }
 
-.banner-block {
+.banner-block, .heading-block {
 	display: block;
 	position: absolute;
-    top: 40%;
-    right: 10%;
-    height: 34%;
+    top: 20%;
+    left: 30%;
+    height: auto;
     z-index: 10;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -137,10 +138,16 @@ header {
     border-radius: 40px;
 }
 
+// .heading-block {
+// 	position: absolute;
+//     top: 18%;
+//     left: 20%;
+// }
 
-.banner-block h2 {
-	margin-top: 2%;
-	margin-bottom: 2%;
+
+.banner-block h3 {
+	
+	margin-bottom: 4%;
 }
 
 .btn {
@@ -374,7 +381,7 @@ section, footer {
 	border-color: rgba($main_color,0.5);
 }
 
-h3.form-title {
+.modal-dialog h3.form-title {
 	text-align: center;
 	color: $main_color;
 	margin-bottom: 4%;
