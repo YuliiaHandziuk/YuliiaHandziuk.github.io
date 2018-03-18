@@ -47,7 +47,7 @@ section:hover hr {
   -moz-transition: 1s; }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.4em; }
 
 .absolute p {
@@ -177,7 +177,10 @@ p {
     left: -28px; }
 
   #callback-container div.contact-container {
-    border: none; } }
+    border: none; }
+
+  footer a.nav-item {
+    line-height: 1em; } }
 @media (max-width: 575px) {
   header div.banner-block {
     height: 28%; }
@@ -253,6 +256,9 @@ p {
 
   #dialog-callback h3, #dialog-suggest h3 {
     font-size: 1.1em; } }
+a:hover {
+  text-decoration: none; }
+
 .layout {
   display: block;
   width: 75%;
@@ -273,12 +279,12 @@ nav {
   z-index: 10;
   background-color: rgba(64, 64, 64, 0.8); }
 
-nav a {
+a {
   color: #8d8d8d;
   font-size: 1em;
   text-decoration: none; }
 
-nav a:hover, nav a:focus {
+a:hover, a:focus {
   color: #b0aeae;
   text-decoration: none; }
 
@@ -323,14 +329,14 @@ header {
   position: relative; }
 
 .parallax-window {
-  min-height: 1080px;
+  min-height: 860px;
   background: transparent; }
 
 .banner-block, .heading-block {
   display: block;
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 24%;
+  right: 10%;
   height: auto;
   z-index: 10;
   padding-top: 2%;
@@ -340,7 +346,12 @@ header {
   background-color: rgba(64, 64, 64, 0.8);
   border-radius: 40px; }
 
-.banner-block h3 {
+.heading-block {
+  left: 10%; }
+
+.banner-block h2 {
+  font-size: 1.5em;
+  text-transform: none;
   margin-bottom: 4%; }
 
 .btn {
@@ -362,9 +373,6 @@ section .carousel-indicators {
 
 section .carousel-control-next, section .carousel-control-prev {
   width: 6%; }
-
-#advantages-container img {
-  margin-bottom: 10%; }
 
 input.form-control {
   margin-bottom: 4%;
@@ -477,6 +485,12 @@ section, footer {
   color: #dfdfde;
   margin-top: 10%;
   line-height: 1.4em; }
+
+footer {
+  text-align: left; }
+
+footer h4 {
+  text-align: center; }
 
 #callback-container .contacts-block {
   display: block;

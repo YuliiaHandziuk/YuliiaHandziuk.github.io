@@ -10,6 +10,9 @@ $btn_color: #4b86b4;
 @import 'responsive-tablet';
 @import 'responsive-phone';
 
+a:hover {
+	text-decoration: none;
+}
 
 .layout {
 	display: block;
@@ -39,14 +42,14 @@ nav {
 
 }
 
-nav a {
+a {
 	color: $font_color;
 	font-size: 1em;
 
 	text-decoration: none;
 }
 
-nav a:hover, nav a:focus {
+ a:hover,  a:focus {
 	color: $addit_color;
 	text-decoration: none;
 }
@@ -119,15 +122,15 @@ header {
 }
 
 .parallax-window {
-    min-height: 1080px;
+    min-height: 860px;
     background: transparent;
 }
 
 .banner-block, .heading-block {
 	display: block;
 	position: absolute;
-    top: 20%;
-    left: 30%;
+    top: 24%;
+    right: 10%;
     height: auto;
     z-index: 10;
     padding-top: 2%;
@@ -138,15 +141,14 @@ header {
     border-radius: 40px;
 }
 
-// .heading-block {
-// 	position: absolute;
-//     top: 18%;
-//     left: 20%;
-// }
+.heading-block {
+    left: 10%;
+}
 
 
-.banner-block h3 {
-	
+.banner-block h2 {
+	font-size: 1.5em;
+	text-transform: none;
 	margin-bottom: 4%;
 }
 
@@ -177,11 +179,13 @@ section .carousel-indicators {
 
 section .carousel-control-next, section .carousel-control-prev {
 	width: 6%;
+
 }
 
-#advantages-container img {
-	margin-bottom: 10%;
-}
+
+// #advantages-container img {
+// 	margin-bottom: 10%;
+// }
 
 
 
@@ -337,6 +341,20 @@ section, footer {
 	margin-top: 10%;
 	line-height: 1.4em;
 }
+
+
+footer  {
+	text-align: left;
+}
+
+
+
+footer  h4 {
+	text-align: center;
+}
+
+
+
 
 
 // CALLBACK 
