@@ -1,6 +1,16 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	header div.banner-block {
-		height: 30%;
+		height: auto;
+		right: 4%;
+	}
+
+
+	header div.banner-block p {
+		font-size: 1.2em;
+	}
+
+	header div.heading-block {
+		left: 4%;
 	}
 
 	.block p {

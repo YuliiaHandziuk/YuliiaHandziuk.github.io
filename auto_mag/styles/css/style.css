@@ -47,7 +47,7 @@ section:hover hr {
   -moz-transition: 1s; }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.4em; }
 
 .absolute p {
@@ -73,7 +73,14 @@ p {
     font-size: 1em; } }
 @media (min-width: 768px) and (max-width: 991px) {
   header div.banner-block {
-    height: 30%; }
+    height: auto;
+    right: 4%; }
+
+  header div.banner-block p {
+    font-size: 1.2em; }
+
+  header div.heading-block {
+    left: 4%; }
 
   .block p {
     font-size: 0.9em; }
@@ -281,7 +288,7 @@ nav {
 
 a {
   color: #8d8d8d;
-  font-size: 1em;
+  font-size: 1.2em;
   text-decoration: none; }
 
 a:hover, a:focus {
@@ -297,7 +304,7 @@ nav .contacts {
 
 .top-navigation {
   display: block;
-  border-top: 1px solid rgba(75, 134, 180, 0.2); }
+  border-top: 1px solid rgba(75, 134, 180, 0.3); }
 
 .tracking-in-expand {
   -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite alternate both;
@@ -322,7 +329,7 @@ nav .contacts {
 p.logo {
   font-size: 2em;
   color: #4b86b4;
-  line-height: 1.8em; }
+  line-height: 2em; }
 
 header {
   display: block;
@@ -350,7 +357,7 @@ header {
   left: 10%; }
 
 .banner-block h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-transform: none;
   margin-bottom: 4%; }
 
@@ -387,14 +394,14 @@ textarea {
   border-right: 1px solid rgba(75, 134, 180, 0.2);
   text-align: left; }
 
-section, footer {
+section {
   display: block;
   width: 100%;
   height: auto;
   padding: 4%;
   text-align: center; }
 
-#about_us-container, #chain-container, footer {
+#about_us-container, #chain-container, #proposal-container, footer {
   background-color: #696969; }
 
 #advantages-container, #features-container, #callback-container {
@@ -409,6 +416,12 @@ section, footer {
   width: 100%;
   height: auto;
   padding: 0; }
+
+#about_us-container h2 {
+  font-size: 1.5em; }
+
+#about_us-container .part-block {
+  border-right: 1px solid rgba(75, 134, 180, 0.5); }
 
 #suggest-container .auto-center {
   display: block; }
@@ -474,6 +487,10 @@ section, footer {
   top: 23%;
   left: 20%; }
 
+#proposal-container p {
+  text-align: left;
+  font-size: 1.3em; }
+
 #chain-container img {
   width: 100%; }
 
@@ -484,6 +501,7 @@ section, footer {
   text-align: center;
   color: #dfdfde;
   margin-top: 10%;
+  font-size: 1.2em;
   line-height: 1.4em; }
 
 footer {
@@ -491,6 +509,10 @@ footer {
 
 footer h4 {
   text-align: center; }
+
+footer a.nav-link {
+  padding: 0;
+  padding-bottom: 2%; }
 
 #callback-container .contacts-block {
   display: block;

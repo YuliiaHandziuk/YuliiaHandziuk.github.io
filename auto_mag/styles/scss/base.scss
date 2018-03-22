@@ -44,8 +44,7 @@ nav {
 
 a {
 	color: $font_color;
-	font-size: 1em;
-
+	font-size: 1.2em;
 	text-decoration: none;
 }
 
@@ -69,7 +68,7 @@ nav .contacts {
 
 .top-navigation {
 	display: block;
-	border-top: 1px solid rgba($btn_color, 0.2);
+	border-top: 1px solid rgba($btn_color, 0.3);
 }
 
 .tracking-in-expand {
@@ -107,10 +106,8 @@ nav .contacts {
 p.logo {
 	font-size: 2em;
 	color: $btn_color;
-	line-height: 1.8em;
+	line-height: 2em;
 }
-
-
 
 
 //  Header 
@@ -145,9 +142,8 @@ header {
     left: 10%;
 }
 
-
 .banner-block h2 {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	text-transform: none;
 	margin-bottom: 4%;
 }
@@ -183,9 +179,6 @@ section .carousel-control-next, section .carousel-control-prev {
 }
 
 
-// #advantages-container img {
-// 	margin-bottom: 10%;
-// }
 
 
 
@@ -206,7 +199,7 @@ textarea {
 	text-align: left;
 }
 
-section, footer {
+section {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -214,7 +207,7 @@ section, footer {
 	text-align: center;
 }
 
-#about_us-container, #chain-container, footer {
+#about_us-container, #chain-container, #proposal-container, footer {
 	background-color: $block_color;
 }
 
@@ -236,8 +229,13 @@ section, footer {
 }
 
 
+#about_us-container h2 {
+	font-size: 1.5em;
+}
 
-
+#about_us-container .part-block {
+	border-right: 1px solid rgba($btn_color, 0.5);
+}
 
 // CAR with GOODS
 
@@ -325,6 +323,13 @@ section, footer {
 
 
 
+#proposal-container p {
+	text-align: left;
+	font-size: 1.3em;
+}
+
+
+
 // How we work 
 
 #chain-container img {
@@ -339,6 +344,7 @@ section, footer {
 	text-align: center;
 	color: $light_color;
 	margin-top: 10%;
+	font-size: 1.2em;
 	line-height: 1.4em;
 }
 
@@ -347,15 +353,14 @@ footer  {
 	text-align: left;
 }
 
-
-
 footer  h4 {
 	text-align: center;
 }
 
-
-
-
+footer a.nav-link {
+	padding: 0;
+	padding-bottom: 2%;
+}
 
 // CALLBACK 
 
