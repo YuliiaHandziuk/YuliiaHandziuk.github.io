@@ -4,26 +4,36 @@
 		right: 4%;
 	}
 
-
 	header div.banner-block p {
-		font-size: 1.2em;
+		font-size: 1.1em;
+	}
+
+	header div.banner-block, 
+	header div.heading-block {
+		top: 24%;
 	}
 
 	header div.heading-block {
-		left: 4%;
+		left: 6%;
 	}
 
-	.block p {
-		font-size: 0.9em;
+	nav a {
+		font-size: 1em;
+	}
+
+	#suggest-container div.auto-center {
+		left: 33%;
+		width: 40%;
 	}
 
 	#suggest-container div.auto-center img {
-		width: 46%;
-		left: 26%;
+		width: 100%;
 	}
 
+
 	#suggest-container div.lot-1 {
-		left: 6%;
+		left: 9%;
+		top: 44%;
 	}
 
 	#suggest-container div.lot-2 {
@@ -46,32 +56,46 @@
 	}
 
 	#suggest-container div.lot-6 {
-		left: 12%;
+		left: 11%;
+		bottom: 8%;
 	}
 
 	#suggest-container div.lot-7 {
 		bottom: 4%;
+		left: 32%;
 	}
 
 	#suggest-container div.lot-8 {
-		left: 47%;
+		left: 44%;
 	}	
 
 	#suggest-container div.lot-9 {
-		top: 18%;
-		left: 16%;
+		top: 17%;
+		left: 15%;
 	}
 
 	#features-container {
 		padding-bottom: 10%;
 	}
 
+	#chain-container div.block p {
+		font-size: 0.74em;
+	}
+
+	#callback-container a {
+		font-size: 1em;
+	}
+
+	#callback-container input, #callback-container textarea {
+		font-size: 0.7em;
+	}
+
 	#callback-container .btn {
 		width: 40%;
 	}
 
-	footer p {
-		font-size: 0.9em;
+	footer a {
+		font-size: 1em;
 	}
 
 }

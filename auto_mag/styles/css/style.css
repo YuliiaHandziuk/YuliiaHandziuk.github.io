@@ -55,13 +55,48 @@ p {
 
 @media (min-width: 992px) and (max-width: 1139px) {
   header div.banner-block {
-    height: 32%; }
+    height: auto; }
 
   header div.banner-block h2 {
     font-size: 1.4em; }
 
   .block p {
     font-size: 1em; }
+
+  #suggest-container div.lot-1 {
+    top: 42%;
+    left: 10%; }
+
+  #suggest-container div.lot-2 {
+    top: 19%;
+    right: 20%; }
+
+  #suggest-container div.lot-3 {
+    right: 6%; }
+
+  #suggest-container div.lot-4 {
+    bottom: 12%;
+    right: 9%; }
+
+  #suggest-container div.lot-5 {
+    bottom: 2%;
+    right: 28%; }
+
+  #suggest-container div.lot-6 {
+    bottom: 10%;
+    left: 14%; }
+
+  #suggest-container div.lot-7 {
+    bottom: 2%;
+    left: 36%; }
+
+  #suggest-container div.lot-8 {
+    top: 18%;
+    left: 45%; }
+
+  #suggest-container div.lot-9 {
+    top: 16%;
+    left: 23%; }
 
   #dialog-callback div.modal-dialog {
     margin-top: 40%; }
@@ -77,20 +112,28 @@ p {
     right: 4%; }
 
   header div.banner-block p {
-    font-size: 1.2em; }
+    font-size: 1.1em; }
+
+  header div.banner-block,
+  header div.heading-block {
+    top: 24%; }
 
   header div.heading-block {
-    left: 4%; }
+    left: 6%; }
 
-  .block p {
-    font-size: 0.9em; }
+  nav a {
+    font-size: 1em; }
+
+  #suggest-container div.auto-center {
+    left: 33%;
+    width: 40%; }
 
   #suggest-container div.auto-center img {
-    width: 46%;
-    left: 26%; }
+    width: 100%; }
 
   #suggest-container div.lot-1 {
-    left: 6%; }
+    left: 9%;
+    top: 44%; }
 
   #suggest-container div.lot-2 {
     right: 8%; }
@@ -108,26 +151,37 @@ p {
     right: 26%; }
 
   #suggest-container div.lot-6 {
-    left: 12%; }
+    left: 11%;
+    bottom: 8%; }
 
   #suggest-container div.lot-7 {
-    bottom: 4%; }
+    bottom: 4%;
+    left: 32%; }
 
   #suggest-container div.lot-8 {
-    left: 47%; }
+    left: 44%; }
 
   #suggest-container div.lot-9 {
-    top: 18%;
-    left: 16%; }
+    top: 17%;
+    left: 15%; }
 
   #features-container {
     padding-bottom: 10%; }
 
+  #chain-container div.block p {
+    font-size: 0.74em; }
+
+  #callback-container a {
+    font-size: 1em; }
+
+  #callback-container input, #callback-container textarea {
+    font-size: 0.7em; }
+
   #callback-container .btn {
     width: 40%; }
 
-  footer p {
-    font-size: 0.9em; } }
+  footer a {
+    font-size: 1em; } }
 @media (min-width: 576px) and (max-width: 767px) {
   nav div.top-tagline a {
     font-size: 0.84em; }
@@ -136,43 +190,41 @@ p {
     text-align: left;
     font-size: 1.2em; }
 
+  header {
+    padding-top: 30%; }
+
   header div.banner-block {
-    height: 28%; }
+    height: auto; }
 
-  #suggest-container div.auto-center img {
-    width: 46%;
-    left: 26%; }
+  header div.banner-block, header div.heading-block {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
 
-  #suggest-container div.lot-1 {
-    left: 6%; }
+  section#suggest-container {
+    height: auto; }
 
-  #suggest-container div.lot-2 {
-    right: 8%; }
+  #suggest-container div.auto-center {
+    display: none; }
 
-  #suggest-container div.lot-3 {
-    top: 45%;
-    right: 4%; }
+  #suggest-container div.absolute {
+    position: relative; }
 
-  #suggest-container div.lot-4 {
-    bottom: 11%;
-    right: 8%; }
-
-  #suggest-container div.lot-5 {
-    bottom: 4%;
-    right: 26%; }
-
-  #suggest-container div.lot-6 {
-    left: 12%; }
-
-  #suggest-container div.lot-7 {
-    bottom: 4%; }
-
-  #suggest-container div.lot-8 {
-    left: 47%; }
-
+  #suggest-container div.lot-1,
+  #suggest-container div.lot-2,
+  #suggest-container div.lot-3,
+  #suggest-container div.lot-4,
+  #suggest-container div.lot-5,
+  #suggest-container div.lot-6,
+  #suggest-container div.lot-7,
+  #suggest-container div.lot-8,
   #suggest-container div.lot-9 {
-    top: 18%;
-    left: 16%; }
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
 
   #features-container {
     padding-bottom: 10%; }
@@ -189,14 +241,27 @@ p {
   footer a.nav-item {
     line-height: 1em; } }
 @media (max-width: 575px) {
+  header {
+    padding-top: 50%; }
+
   header div.banner-block {
-    height: 28%; }
+    height: auto; }
 
   header div.banner-block .btn {
     width: 60%; }
 
-  header div.banner-block h2 {
-    font-size: 1.4em; }
+  header div.banner-block h2, header div.heading-block h2 {
+    font-size: 1.1em; }
+
+  header p {
+    font-size: 0.9em; }
+
+  header div.banner-block, header div.heading-block {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
 
   nav div.top-tagline a {
     font-size: 0.5em; }
@@ -242,6 +307,9 @@ p {
   #features-container a.carousel-control-prev {
     display: none; }
 
+  section#proposal-container p {
+    font-size: 1em; }
+
   #chain-container div.block {
     margin-bottom: 6%; }
 
@@ -256,10 +324,13 @@ p {
     padding-bottom: 10%; }
 
   #callback-container div.contact-container a {
-    font-size: 0.9em; }
+    font-size: 0.8em; }
 
   #callback-container .btn {
     width: 40%; }
+
+  #callback-container input, #callback-container textarea {
+    font-size: 0.7em; }
 
   #dialog-callback h3, #dialog-suggest h3 {
     font-size: 1.1em; } }
@@ -300,10 +371,12 @@ nav .contacts {
 
 .top-tagline {
   display: block;
-  height: auto; }
+  height: auto;
+  width: 100%; }
 
 .top-navigation {
   display: block;
+  width: 100%;
   border-top: 1px solid rgba(75, 134, 180, 0.3); }
 
 .tracking-in-expand {
@@ -424,15 +497,16 @@ section {
   border-right: 1px solid rgba(75, 134, 180, 0.5); }
 
 #suggest-container .auto-center {
-  display: block; }
+  display: block;
+  position: absolute;
+  top: 46%;
+  left: 34%;
+  width: 34%;
+  height: 30%; }
 
 #suggest-container .auto-center img {
   display: block;
-  position: absolute;
-  top: 41%;
-  left: 34%;
-  width: 32%;
-  height: 30%; }
+  width: 100%; }
 
 #suggest-container .absolute {
   display: block;
@@ -452,8 +526,8 @@ section {
   width: auto; }
 
 #suggest-container .lot-1 {
-  top: 42%;
-  left: 8%; }
+  top: 50%;
+  left: 14%; }
 
 #suggest-container .lot-2 {
   top: 21%;
@@ -468,24 +542,27 @@ section {
   right: 15%; }
 
 #suggest-container .lot-5 {
-  bottom: 7%;
-  right: 34%; }
+  bottom: 0%;
+  right: 30%; }
 
 #suggest-container .lot-6 {
-  bottom: 11%;
-  left: 17%; }
+  bottom: 4%;
+  left: 26%; }
 
 #suggest-container .lot-7 {
-  bottom: 8%;
-  left: 35%; }
+  bottom: 0%;
+  left: 44%; }
 
 #suggest-container .lot-8 {
-  top: 19%;
-  left: 40%; }
+  top: 20%;
+  left: 42%; }
 
 #suggest-container .lot-9 {
-  top: 23%;
+  top: 20%;
   left: 20%; }
+
+#features-container .carousel-item .row {
+  width: 100%; }
 
 #proposal-container p {
   text-align: left;
@@ -505,10 +582,15 @@ section {
   line-height: 1.4em; }
 
 footer {
-  text-align: left; }
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 footer h4 {
   text-align: center; }
+
+footer .contacts-item {
+  margin-bottom: 4%; }
 
 footer a.nav-link {
   padding: 0;

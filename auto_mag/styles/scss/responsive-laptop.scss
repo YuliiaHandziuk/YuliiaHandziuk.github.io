@@ -1,6 +1,6 @@
 @media (min-width: 992px) and (max-width: 1139px) {
 	header div.banner-block {
-		height: 32%;
+		height: auto;
 	}
 
 	header div.banner-block h2 {
@@ -9,6 +9,50 @@
 
 	.block p {
 		font-size: 1em;
+	}
+
+	#suggest-container div.lot-1{
+		top: 42%;
+		left: 10%
+	}
+
+	#suggest-container div.lot-2 {
+		top: 19%;
+		right: 20%;
+	}
+
+	#suggest-container div.lot-3 {
+		right: 6%;
+	}
+
+	#suggest-container div.lot-4 {
+		bottom: 12%;
+		right: 9%;
+	} 
+
+	#suggest-container div.lot-5 {
+		bottom: 2%;
+		right: 28%;
+	}
+
+	#suggest-container div.lot-6 {
+		bottom: 10%;
+		left: 14%;
+	}
+
+	#suggest-container div.lot-7 {
+		bottom: 2%;
+		left: 36%;
+	}
+
+	#suggest-container div.lot-8 {
+		top: 18%;
+		left: 45%;
+	}
+
+	#suggest-container div.lot-9 {
+		top: 16%;
+		left: 23%;
 	}
 
 	#dialog-callback div.modal-dialog {

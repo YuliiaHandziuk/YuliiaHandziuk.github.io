@@ -62,12 +62,14 @@ nav .contacts {
 .top-tagline {
 	display: block;
 	height: auto;
+	width: 100%;
 }
 
 
 
 .top-navigation {
 	display: block;
+	width: 100%;
 	border-top: 1px solid rgba($btn_color, 0.3);
 }
 
@@ -199,7 +201,7 @@ textarea {
 	text-align: left;
 }
 
-section {
+section	 {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -243,15 +245,16 @@ section {
 
 #suggest-container .auto-center {
 	display: block;
+	position: absolute;
+	top: 46%;
+	left: 34%;
+	width: 34%;
+	height: 30%;
 }
 
 #suggest-container .auto-center img {
 	display: block;
-	position: absolute;
-	top: 41%;
-	left: 34%;
-	width: 32%;
-	height: 30%;
+	width: 100%;
 
 }
 
@@ -277,8 +280,8 @@ section {
 }
 
 #suggest-container .lot-1 {
-	top: 42%;
-	left: 8%;
+	top: 50%;
+	left: 14%;
 }
 
 #suggest-container .lot-2 {
@@ -297,31 +300,33 @@ section {
 }
 
 #suggest-container .lot-5 {
-	bottom: 7%;
-	right: 34%;
+	bottom: 0%;
+	right: 30%;
 }
 
 #suggest-container .lot-6 {
-	bottom: 11%;
-	left: 17%;
+	bottom: 4%;
+	left: 26%;
 }
 
 #suggest-container .lot-7 {
-	bottom: 8%;
-	left: 35%;
+	bottom: 0%;
+	left: 44%;
 }
 
 #suggest-container .lot-8 {
-	top: 19%;
-	left: 40%;
+	top: 20%;
+	left: 42%;
 }
 
 #suggest-container .lot-9 {
-	top: 23%;
+	top: 20%;
 	left: 20%;
 }
 
-
+#features-container .carousel-item .row {
+	width: 100%;
+}
 
 #proposal-container p {
 	text-align: left;
@@ -351,10 +356,16 @@ section {
 
 footer  {
 	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 footer  h4 {
 	text-align: center;
+}
+
+footer .contacts-item {
+	margin-bottom: 4%;
 }
 
 footer a.nav-link {
