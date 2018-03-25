@@ -333,6 +333,47 @@ section	 {
 	font-size: 1.3em;
 }
 
+div.info-container {
+	position: relative;
+	background: $addit_color;
+	border: 1px solid $btn_color;
+	margin-left: 20%;
+	border-radius: 10px;
+	width: 70%;
+	height: 1.5625em;
+	
+}
+
+#proposal-container div.info-container p {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.info-container:after, .info-container:before {
+	bottom: 100%;
+	left: 20%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.info-container:after {
+	border-color: rgba(176, 174, 174, 0);
+	border-bottom-color: #b0aeae;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.info-container:before {
+	border-color: rgba(75, 134, 180, 0);
+	border-bottom-color: #4b86b4;
+	border-width: 11px;
+	margin-left: -11px;
+}
+
+
 
 
 // How we work 
